@@ -9,6 +9,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
   api.use('ecmascript');
+  api.use('http@1.0.0')
   api.addFiles('reply.js', 'client');
   api.export('Reply' ,'client');
 });
